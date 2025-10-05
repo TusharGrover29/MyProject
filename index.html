@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Simple Node App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Simple Node App</h1>
+    <p>
+      This project is created to demonstrate how Git and GitHub work with Node.js — 
+      including creating branches, committing changes, and performing push & pull operations.
+    </p>
+  </header>
+
+  <main>
+    <p>
+      The <strong>main</strong> branch contains this HTML file, while the 
+      <strong>design</strong> branch contains the CSS file. 
+      Merging both branches gives the complete styled project.
+    </p>
+    <button id="testBtn">Click me</button>
+  </main>
+
+  <script>
+    document.getElementById('testBtn').addEventListener('click', () => {
+      alert('Hello from the main branch — Git & GitHub project demo!');
+    });
+  </script>
+</body>
+</html>
